@@ -1,0 +1,21 @@
+git init - inicia o repositorio
+git add - adiciona os arquivos para commit
+git commit -m {message} - comita os arquivos adicionados e adiciona uma mensagem
+git push - envia esses commits ao repositorio
+git branch {nome_branch} - cria uma nova branch, mas não altera a branch dos commits(local)
+git branch -D {nome_branch} - deleta uma branch
+git checkout {nome_branch} - altera a branch dos commits
+git checkout -b {nome_branch} - cria e altera a branch dos commits
+git push origin {nome_branch} - lança a branch criada localmente para o repositorio remoto
+git commit -a -m <comentário> - adiciona um arquivo e faz o commit em apenas um passo
+git log --stat - consultar os commits, e suas estatísticas abreviadas
+git remote -v - lista todos os repositorios remotos
+git tag {texto} - marca um compromisso especifico no git
+git remote - ver um repositório remoto
+git rebase {nome_arquivo} - juntar arquivos de duas branches sem gerar um novo evento
+git commit --amend - edita a mensagem do ultimo commit
+git config --global user.name "SEU NOME"/git config --global user.email "SEU ENDEREÇO DE E-MAIL" - configurar usuario e e-mail na sua máquina
+git diff NOME_DO_ARQUIVO - ver as modificações feitas no arquivo
+git checkout -- NOME_DO_ARQUIVO - reseta modificações feitas no arquivo
+git reset HEAD NOME_DO_ARQUIVO -  retirar um arquivo adicionado para commitar 
+git merge NOME_DA_BRANCH - unir branch a master
