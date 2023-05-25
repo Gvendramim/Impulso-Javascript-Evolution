@@ -32,4 +32,3 @@ let nome = 'Lucas'
 console.log(nome || 'Desconhecido') // para determinar um valor padrão para variavel
 
 
-// revisar booleanos = verdadeiro ou falso ok corno
